@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7200da</color>
+    <color name="colorPrimaryDark">#6C49B8</color>
+    <color name="colorAccent">#f9c00c</color>
+    <color name="colorCategoryEditorText">#00b9f1</color>
+    <color name="colorHelpText">#A2AAB0</color>
+    <color name="colorProductName">#2B3D4D</color>
+    <color name="colorPrice">#AEB6BD</color>
+    <color name="colorQuantity">#AEB6BD</color>
+</resources>

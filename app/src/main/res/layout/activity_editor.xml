@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/editor_padding"
+    tools:context=".EditorActivity">
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:text="@string/product" />
+
+    <EditText
+        android:id="@+id/product_name_edit"
+        style="@style/EditorFieldStyle"
+        android:hint="@string/name"
+        android:inputType="textCapWords" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/product_quantity_edit"
+            style="@style/EditorFieldWithButtonStyle"
+            android:hint="@string/quantity"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/quantity_decrement_button"
+            style="@style/ButtonStyle"
+            android:drawableLeft="@drawable/ic_minus" />
+
+        <Button
+            android:id="@+id/quantity_increment_button"
+            style="@style/ButtonStyle"
+            android:drawableLeft="@drawable/ic_add" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/product_price_edit"
+        style="@style/EditorFieldStyle"
+        android:hint="@string/price"
+        android:inputType="numberDecimal" />
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:text="@string/supplier" />
+
+    <EditText
+        android:id="@+id/supplier_name_edit"
+        style="@style/EditorFieldStyle"
+        android:hint="@string/name"
+        android:inputType="textCapWords" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/supplier_phone_number_edit"
+            style="@style/EditorFieldWithButtonStyle"
+            android:hint="@string/phone"
+            android:inputType="phone" />
+
+        <Button
+            android:id="@+id/phone_button"
+            style="@style/ButtonStyle"
+            android:drawableLeft="@drawable/ic_phone" />
+
+    </LinearLayout>
+
+</LinearLayout>

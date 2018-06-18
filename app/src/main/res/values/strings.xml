@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Inventory</string>
+    <string name="default_text">Hello!</string>
+
+    <string name="action_insert_dummy_data">Insert example product</string>
+    <string name="action_delete_all_items">Delete all products</string>
+    <string name="action_save_item">Save</string>
+    <string name="action_delete_item">Delete product</string>
+
+    <string name="title_insert_item">Insert product</string>
+    <string name="title_edit_item">Edit product</string>
+
+    <string name="message_delete_success">Delete product successful</string>
+    <string name="message_delete_error">Delete failed</string>
+    <string name="message_phone_permission_deny">Permission denied</string>
+
+    <string name="message_delete_question">Delete this product?</string>
+    <string name="message_discard_changes">Discard your changes and quit editing?</string>
+    <string name="message_quantity_non_negative">Quantity can\'t be negative</string>
+    <string name="message_fill_data">Fill all fields</string>
+
+    <string name="insert_item_success">Product add</string>
+    <string name="insert_item_failed">Error with saving product</string>
+
+    <string name="update_item_success">Product updated</string>
+    <string name="update_item_failed">Error with updating product</string>
+
+    <string name="delete_items_success">Delete all products</string>
+    <string name="delete_items_failed">Error with delete products</string>
+
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="discard">Discard</string>
+    <string name="keep_editing">Keep editing</string>
+
+    <string name="no_data">No data :(</string>
+    <string name="start">Get started by add a new product.</string>
+
+    <string name="product_name_example">Mac Book Pro</string>
+    <string name="price_example">1000</string>
+    <string name="quantity_example">10</string>
+    <string name="supplier_name_example">Steve Jobs</string>
+    <string name="supplier_phone_example">123123123</string>
+    
+    <string name="name">Name</string>
+    <string name="quantity">Quantity</string>
+    <string name="price">Price</string>
+    <string name="phone">Phone</string>
+    <string name="product">Product</string>
+    <string name="supplier">Supplier</string>
+
+</resources>
